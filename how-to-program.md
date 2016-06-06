@@ -18,20 +18,19 @@ While good design of the *sensory interface* between the computer and the user
 is key to a device's ease of use, the interface can be useful only if there be
 good *software* running in the computer.  The sensory interface includes
 
- - from the computer every *output* (such as a display screen) that the user's
-   sense organs (typically eyes, ears, and skin) interact with in order for the
-   user to sense the behavior of the device and
+ - from the computer every *output* by which the user can sense the behavior of
+   the device and
 
- - to the computer every *input* (such as a keyboard) by which the user can
-   stimulate a change in the device's output.
+ - to the computer every *input* by which the user can stimulate a change in
+   the device's output.
 
 A computer must, in order to make a device easy to use, run a program or
-programs that are easy to use through the interface.  The programs that run on
-a computer comprise the computer's software.  The software defines the behavior
-of the device.  By experimenting with the sensory interface, the user can learn
-how the device behaves.  When the user has learnt how profitably to take
-advantage of the device's behavior, the user has mastered a *basic* usage of a
-computer.
+programs that make the behavior of the interface easy for the user to
+understand.  The programs that run on a computer comprise the computer's
+software.  The software defines the behavior of the device.  By experimenting
+with the sensory interface, the user can learn how the device behaves.  When
+the user has learnt how profitably to take advantage of the device's behavior,
+the user has mastered the *basic* usage of the device's computer.
 
 ## Advanced Usage of a Computer
 
