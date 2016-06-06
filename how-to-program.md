@@ -36,11 +36,11 @@ the user has mastered the *basic* usage of the device's computer.
 
 The occasional computing device, such as one with a full, physical keyboard,
 allows for *advanced* usage, in which the user can modify a device's behavior
-in a deep way: The user writes new software, so that the device might have its
-behavior fundamentally changed or so that new software is written for another
-device.  Advanced usage is deep in that the degree to which the device's
-behavior can be changed is limited only by the user's understanding of the
-device's operation and by the user's speculative intellect.
+in a deep way: The user writes new software, so that the same device might have
+its behavior fundamentally changed or so that a different device might have its
+behavior defined.  Advanced usage is deep in that the degree to which the
+device's behavior can be changed is limited only by the user's understanding of
+the device's operation and by the user's speculative intellect.
 
 Advanced usage imposes certain requirements on the physical interface and on
 the software already in the device.  In the earliest days of computing, in the
