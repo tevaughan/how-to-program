@@ -40,7 +40,7 @@ in a deep way: The user writes new software, so that the same device might have
 its behavior fundamentally changed or so that a different device might have its
 behavior defined.  Advanced usage is deep in that the degree to which the
 device's behavior can be changed is limited only by the user's understanding of
-the device's operation and by the user's speculative intellect.
+the device's physical construction and by the user's speculative intellect.
 
 Advanced usage imposes certain requirements on the physical interface and on
 the software already in the device.  In the earliest days of computing, in the
