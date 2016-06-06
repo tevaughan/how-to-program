@@ -63,9 +63,9 @@ complete, but many of its core programs, along with free software from other
 projects, do provide a complete system for writing new software.
 
 In what follows, we shall introduce the reader to the advanced usage of a
-computer. By referring only to free software, we make so easy as possible the
-reader's acquisition of the necessary tools.  Thus we enable the reader to
-define a computer's behavior just as he pleases, within the constraints of the
+computer. By referring only to free software, we make easy the reader's
+acquisition of the necessary tools.  Thus we enable the reader to define a
+computer's behavior just as he pleases, within the constraints of the
 computer's physical capability.
 
 # Advanced Usage of a Computer
