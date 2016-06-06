@@ -35,13 +35,13 @@ the user has mastered the *basic* usage of the device's computer.
 ## Advanced Usage of a Computer
 
 The occasional computing device, such as one with a full, physical keyboard,
-allows for more *advanced* usage, in which the user can modify the device's
-behavior in a deep way.  In such advanced usage, the user writes new software,
-so that the device itself might have its behavior fundamentally changed, or so
-that new software is written for another device.  This advanced usage is deep
-in that the degree to which the device's behavior can be changed is limited
-only by the user's understanding of the device's operation and by the user's
-speculative intellect.
+allows for *advanced* usage, in which the user can modify the device's behavior
+in a deep way.  In such advanced usage, the user writes new software, so that
+the device itself might have its behavior fundamentally changed, or so that new
+software is written for another device.  This advanced usage is deep in that
+the degree to which the device's behavior can be changed is limited only by the
+user's understanding of the device's operation and by the user's speculative
+intellect.
 
 Such advanced usage imposes certain requirements on the physical interface and
 on the software already in the device.  In the earliest days of computing, in
