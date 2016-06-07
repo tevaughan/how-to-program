@@ -1,21 +1,32 @@
-% How To Program
+% How To Program a Computer
 % Thomas E. Vaughan
 % 2016 June
 
 # Introduction
 
-At a basic level, how to use a computer is common knowledge.  Each of the
-desktop workstation, the point-of-sale terminal, the tablet, the cell phone,
-and even the occasional wrist watch is a device with more computing power than
-the most advanced, room-sized computers of the 1960s.  The computer is now an
-indispensable part of daily life because it can be simultaneously small,
-powerful in computation, efficient in use of energy, inexpensive, rugged, and
-easy to use.  Although the pervasiveness of computers requires widespread
-knowledge of their basic use, knowledge of advanced usage, which can redefine
-the operation of the computer, is not so widespread.  My use of "basic" and
-"advanced" here is not standard, but I think it useful to define these terms in
-a way that makes clear the difference between merely using software that
-already exists and writing new software.
+In 1984, Apple Computer (now Apple) changed the world.  The popular Macintosh
+computer ushered in the widespread use of a high-resolution graphical user
+interface (GUI) that could be conveniently controlled by a pointing device (the
+"mouse").  A person could, even without any knowledge of how to write a
+computer program, easily learn to do useful work on a Macintosh.  Although this
+was possible on earlier devices, the Macintosh was the first serious computer
+that did not even ship with a computer language for the user to write programs
+(though one could of course purchase software to support writing programs).
+
+By the early 1990s, basic knowledge of how to use a computer became common
+knowledge.  Today, each of the desktop workstation, the point-of-sale terminal,
+the tablet, the cell phone, and even the occasional wrist watch is a device
+with more computing power than the most advanced, room-sized computers of the
+1960s.  The computer is now an indispensable part of daily life because it can
+be simultaneously small, powerful in computation, efficient in use of energy,
+inexpensive, rugged, and easy to use.
+
+However, although the pervasiveness of computers requires widespread knowledge
+of their basic use, knowledge of how to program a computer---that is, advanced
+usage, which can redefine the operation of the computer---is not so widespread.
+My use of "basic" and "advanced" here is not standard, but I think it useful to
+define these terms in a way that makes clear the difference between merely
+using software that already exists and writing new software.
 
 ## Basic Usage of a Computer
 
@@ -50,14 +61,14 @@ either the behavior of the device itself or the behavior of a different device.
 In advanced usage, the user writes new software, which is deployed either on
 the same device or on a different device.  Advanced usage can be deep in that
 the degree to which a device's behavior can be changed is limited only by the
-the device's physical construction, the user's speculative intellect, and the
+device's physical construction, the user's speculative intellect, and the
 user's available time to work.  Advanced usage imposes certain requirements on
 the sensory interface and on the software already in the device.  Most
 importantly, a device that allows for advanced usage must provide an input
 interface for constructing a new computer program.
 
 In the early days of computing, every device allowed for advanced usage.  As
-computing has advanced through history, ever more software has come to reside
+computing has evolved through history, ever more software has come to reside
 permanently in the device.  Before 1980 or so, the typical user of a computer
 was an advanced user.  At that time, a common user's needs could be met only if
 he wrote his own program.  Since the early 1990s or so, the typical computer
@@ -96,7 +107,7 @@ would convert the FORTRAN into a different machine-code version of the same
 program.
 
 In 1975 MITS sold the first kit (the Altair 8800) for a small device to be used
-at home.  Before this, a computer was always a large device found at a
+at home.  Before this, a computer was usually a large device found at a
 government or business office.  The Altair 8800 still had manual switches for
 loading a bare machine-code program into memory.
 
@@ -116,20 +127,21 @@ running a computer.  The GNU system is still incomplete, but many of its core
 programs, along with free software from other projects, do provide a complete,
 free system for writing new software.
 
-In what follows, we introduce the reader to the advanced usage of a computer.
-We begin by describing how a computer works.  Then we introduce some free tools
-that, taken together, enable one to write new software.  After we introduce the
-suite of tools, we focus on a compiled language, though it is C and not
-FORTRAN.  A compiled language gives great control and speed while allowing a
-program to be portable from one device to the next.  We also introduce a
-scripting language, Ruby.  A scripting language allows a program to be written
-quickly and concisely.  Although a scripted program is usually not so fast as a
+In what follows, the reader will learn about the advanced usage of a computer.
+I begin by describing how a computer works.  Then I introduce some free tools
+that, taken together, enable one to write new software.  After I introduce the
+suite of tools, I focus on a compiled language, though it is C and not FORTRAN.
+A compiled language gives great control and speed while allowing a program to
+be portable from one device to the next.  I also introduce a scripting
+language, Ruby.  A scripting language allows a program to be written quickly
+and concisely.  Although a scripted program is usually not so fast as a
 compiled program, it is often fast enough.  Almost every programming task can
 be accomplished by some combination of compiled and scripted code.  By
 referring only to free software (for example, the GNU C compiler and the Ruby
-interpreter), we make easy the reader's acquisition of the necessary tools.
-Thus we enable the reader to define a device's behavior just as he pleases,
-within the constraints of the device's physical capability.
+interpreter), I make easy the reader's acquisition of the necessary tools.  The
+material here presented gives the reader the power to define a device's
+behavior just as he pleases, within the constraints of the device's physical
+capability.
 
 # Advanced Usage of a Computer
 
