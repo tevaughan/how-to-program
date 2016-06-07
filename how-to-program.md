@@ -13,20 +13,20 @@ was possible on earlier devices, the Macintosh was the first serious computer
 that did not even ship with a computer language for the user to write programs
 (though one could of course purchase software to support writing programs).
 
-By the early 1990s, basic knowledge of how to use a computer became common
-knowledge.  Today, each of the desktop workstation, the point-of-sale terminal,
-the tablet, the cell phone, and even the occasional wrist watch is a device
-with more computing power than the most advanced, room-sized computers of the
-1960s.  The computer is now an indispensable part of daily life because it can
-be simultaneously small, powerful in computation, efficient in use of energy,
+By the early 1990s, basic knowledge of how to use a computer became common.
+Today, each of the desktop workstation, the point-of-sale terminal, the tablet,
+the cell phone, and even the occasional wrist watch is a device with more
+computing power than the most advanced, room-sized computers of the 1960s.  The
+computer is now an indispensable part of daily life because it can be
+simultaneously small, powerful in computation, efficient in use of energy,
 inexpensive, rugged, and easy to use.
 
 However, although the pervasiveness of computers requires widespread knowledge
-of their basic use, knowledge of how to program a computer---that is, advanced
-usage, which can redefine the operation of the computer---is not so widespread.
-My use of "basic" and "advanced" here is not standard, but I think it useful to
-define these terms in a way that makes clear the difference between merely
-using software that already exists and writing new software.
+of their basic use, knowledge of how to program a computer---that is, knowledge
+of advanced usage, which can redefine the operation of the computer---is not so
+widespread.  My use of "basic" and "advanced" here is not standard, but I think
+it useful to define these terms in a way that makes clear the difference
+between merely using software that already exists and writing new software.
 
 ## Basic Usage of a Computer
 
