@@ -14,8 +14,8 @@ easy to use.  Although the pervasiveness of computers requires widespread
 knowledge of their basic use, knowledge of advanced usage, which can redefine
 the operation of the computer, is not so widespread.  My use of "basic" and
 "advanced" here is not standard, but I think it useful to define these terms in
-a way that makes clear the difference between using software that already
-exists and writing new software.
+a way that makes clear the difference between merely using software that
+already exists and writing new software.
 
 ## Basic Usage of a Computer
 
@@ -39,10 +39,9 @@ single, logical device.
 The software consists of the program or programs running in the computer.  The
 software defines the behavior of the device.  By experimenting with the sensory
 interface, the user can learn how the device behaves.  When the user has learnt
-how profitably to take advantage of the device's behavior, the user has
-mastered the *basic* usage of the device's computer.  Basic usage of a
-computer, then, is just the use of the software that is running in the
-computer.
+how to profit from the device's behavior, the user has mastered *basic* usage
+of the device's computer.  Basic usage of a computer does not involve changing
+the behavior that is built in to the computer in its existing software.
 
 ## Advanced Usage of a Computer
 
@@ -53,18 +52,18 @@ the same device or on a different device.  Advanced usage can be deep in that
 the degree to which a device's behavior can be changed is limited only by the
 the device's physical construction, the user's speculative intellect, and the
 user's available time to work.  Advanced usage imposes certain requirements on
-the physical interface and on the software already in the device.  Most
+the sensory interface and on the software already in the device.  Most
 importantly, a device that allows for advanced usage must provide an input
 interface for constructing a new computer program.
 
 In the early days of computing, every device allowed for advanced usage.  As
 computing has advanced through history, ever more software has come to reside
-permanently in the device.  Before 1980 or so, almost everyone who used a
-computer was an advanced user.  At that time, the user's needs could be met
-only if he wrote his own program.  Since the early 1990s or so, the typical
-computer user has only basic knowledge of how to use a computer.  Since that
-time, the typical device is purchased already loaded with all of the software
-that the user needs.
+permanently in the device.  Before 1980 or so, the typical user of a computer
+was an advanced user.  At that time, a common user's needs could be met only if
+he wrote his own program.  Since the early 1990s or so, the typical computer
+user has only basic knowledge of how to use a computer.  Since that time, the
+typical device is purchased already loaded with all of the software that the
+user needs.
 
 Before 1949, there was no pre-existing software to aid in writing a new piece
 of software.  New software was crafted, for example, by manually flipping
