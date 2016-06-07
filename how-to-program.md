@@ -104,8 +104,8 @@ loading a bare machine-code program into memory.
 Since the late 1970s, though, new software has almost always been written, even
 for a home device, with the assistance of existing software already running.
 Also, since the late 1970s, punch cards have rarely been used; new software is
-usually been typed on an electronic keyboard directly into the computer's
-memory.  Even today, each different type of device still has its own machine
+usually typed on an electronic keyboard directly into the computer's memory.
+Even today, each different type of device still has its own machine
 instructions and its own assembly language.  One who writes a program uses
 these only on rare occasion, such as when the program must run extremely fast.
 
