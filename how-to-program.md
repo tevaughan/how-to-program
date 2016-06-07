@@ -96,7 +96,7 @@ FORTRAN program could be fed into different devices.  Each device's compiler
 would convert the FORTRAN into a different machine-code version of the same
 program.
 
-In 1975 MITS sold the first kit (the Altair 8800) for small devices to be used
+In 1975 MITS sold the first kit (the Altair 8800) for a small device to be used
 at home.  Before this, a computer was always a large device found at a
 government or business office.  The Altair 8800 still had manual switches for
 loading a bare machine-code program into memory.
