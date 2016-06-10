@@ -93,7 +93,7 @@ way in the device to modify its behavior.
 
 Before 1949, there was no pre-existing software to aid in writing a new piece
 of software.  New software was crafted, for example, by manually flipping
-switches to configure individual bits into a computer's read-only memory (ROM),
+switches to configure individual bits in a computer's read-only memory (ROM),
 by punching holes in a paper tape and feeding the tape through a tape reader,
 or by punching holes in each of a set of cards and inserting a stack of cards
 into a card reader.  Each of the switch set, the tape reader, and the card
@@ -188,25 +188,25 @@ by GNU is the C compiler.
 [^other-free]: Such as the Linux kernel.
 
 In the early days of computing, every device allowed for advanced usage.  As
-computing has evolved through history, ever more software has come to reside
-permanently in the device.  Before 1980 or so, the typical user of a computer
-was an advanced user; a common user's needs could be met only if he wrote his
-own program.  By the middle of the 1980s, when Apple Computer introduced the
+computing has evolved through history, ever more software resides permanently
+in the device.  Before 1980 or so, the typical user of a computer was an
+advanced user; a common user's needs could be met only if he wrote his own
+program.  By the middle of the 1980s, when Apple Computer introduced the
 Macintosh, the basic, non-programming use of computing devices was growing
 rapidly more common.  Since the early 1990s, when Microsoft introduced a
 popular, standard GUI (Microsoft Windows 3.1) for open-architecture personal
 computers, the typical computer user has had only basic knowledge of how to use
-a computer.  The typical device today is purchased already loaded with all of
-the software that the user needs, but advanced usage can be difficult or
-expensive.  The most convenient approach to enable advanced usage is often to
-install software from the FSF.
+a computer.  Out of the box, a device purchased today is already loaded with
+all of the software that the basic user needs, but advanced usage can be
+difficult or expensive.  The most convenient approach to enable advanced usage
+is often to install software from the FSF.
 
 ## The Content of the Present Book
 
 In what follows, the reader will learn about the advanced usage of a computer.
 I begin by describing how a computer works.  Then I introduce some free tools
-that, taken together, enable one to write new software.  After I introduce the
-suite of tools, I focus on a compiled language (though it is C and not
+that, taken together, enable one to write new software in a Unix-like system.
+After I introduce the suite of tools, I focus on a compiled language (C, not
 FORTRAN).  A compiled language gives great control and speed while allowing a
 program to be portable from one device to the next.  I also introduce a
 scripting language, Ruby.  Like a compiled language, a scripting language
