@@ -81,8 +81,9 @@ only within the confines of a web browser, is an example of advanced usage.
 However, the more advanced the usage, the deeper the control of the device by
 way of the program, the greater the degree to which the device's behavior might
 be altered.  So what I typically mean by "advanced usage" is the construction
-of a program that could write to every one of the device's sensory outputs and
-read from every one of the device's sensory inputs.
+of a program that can write to every one of the device's sensory outputs, can
+read from every one of the device's sensory inputs, and can be stored in a
+permanent way in the device to modify its behavior.
 
 ## A Brief History of Computing
 
