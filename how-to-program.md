@@ -88,38 +88,39 @@ read from every one of the device's sensory inputs.
 
 Before 1949, there was no pre-existing software to aid in writing a new piece
 of software.  New software was crafted, for example, by manually flipping
-switches to load individual bits into a computer's memory or by punching holes
+switches to load individual bits into a computer's memory, by punching holes in
+a paper tape and feeding the tape through a tape reader, or by punching holes
 in each of a set of cards and inserting a stack of cards into a card reader.
-The card reader was an input interface.  Such a process loaded the numbers of a
-program's *machine code*, which governs the computer's behavior.
+The switch set, tape reader, or card reader was an input interface.  Such a
+process loaded the numbers of a program's *machine code*, which governs the
+computer's behavior.
 
 Beginning in 1949, with the EDSAC device, a special piece of software called an
 "assembler" could be installed.  The assembler allowed a new program to be
 written in *assembly language*, rather than directly in machine-code numbers.
-A program could be written by typing on a mechanical keyboard that punched
-holes in a card.  A program was represented by a stack of cards that was fed
-into a card reader.  The assembler translated the program on the cards into
-machine code, and then the new program could be run.  A problem with this
-approach is that every new kind of device had a new and different assembly
-language.  So the same program would have to be re-written by hand for it to
-run on a new device.
+A program could be written by punching holes, corresponding to assembly
+instructions, in a paper tape.  A program was represented on a length of tape
+that was fed into a tape reader.  The assembler translated the program on the
+tape into machine code, and then the new program could be run.  A problem with
+any approach like this is that every new kind of device would have a new and
+different assembly language.  So the same program would have to be re-written
+by hand for it to run on a new device.
 
 Beginning in 1957 with IBM's FORTRAN language, new software could be written as
 words in a *portable computer language*, usually just called a "computer
-language".  As for an assembly program, a computer program in FORTRAN was typed
-on a mechanical keyboard that punched holes in a rigid card.  A special piece
-of software already installed in the computer was the *compiler*.  It
-translated the FORTRAN words into machine code so that the program could run.
-The advantage of a portable computer language is that even though each new
-device had a different set of machine instructions and a different assembly
-language, each new device could come with a FORTRAN compiler.  So the same
-FORTRAN program could be fed into different devices.  Each device's compiler
-would convert the FORTRAN into a different machine-code version of the same
-program.  By the early 1960s, electronic-keyboard terminals began commonly to
-replace punched cards at the device's input interface. By the early 1970s,
-terminals with keyboard and video, rather than keyboard and paper, became
-common. Still, punched cards were commonly used for program input into the
-1970s.
+language".  Each line of a computer program in FORTRAN was usually typed on a
+mechanical keyboard that punched holes in a rigid card.  A special piece of
+software already installed in the computer was the *compiler*.  It translated
+the FORTRAN words into machine code so that the program could run.  The
+advantage of a portable computer language is that even though each new device
+had a different set of machine instructions and a different assembly language,
+each new device could come with a FORTRAN compiler.  So the same FORTRAN
+program could be fed into different devices.  Each device's compiler would
+convert the FORTRAN into a different machine-code version of the same program.
+By the early 1960s, electronic-keyboard terminals began commonly to replace
+punched cards at the device's input interface. By the early 1970s, terminals
+with keyboard and video, rather than keyboard and paper, became common. Still,
+punched cards were commonly used for program input into the 1970s.
 
 In 1975 MITS sold the first commercially successful kit (the Altair 8800) for a
 small computing device to be used at home.  Before this, a computer was usually
