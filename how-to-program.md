@@ -41,12 +41,10 @@ computer".  While good design of a device's *sensory interface* is necessary
 for ease of use, good *software* running in the computer is also necessary.  In
 the heart of the device, the software controls the user's experience.
 
-The sensory interface includes
+The sensory interface includes every
 
- - every *input* (such as a keyboard) that the computer can sense.
-
- - every *output* (such as a collection of illuminated pixels) that the user
-   can sense and
+ - *input* (e.g., keyboard) that the computer can sense and
+ - *output* (e.g., monitor) that the user can sense.
 
 Each input and output might itself be a separate physical device.  In any
 event, the computer, the inputs, and the outputs comprise a single, *logical*
