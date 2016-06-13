@@ -4,42 +4,43 @@
 
 # Introduction
 
-In 1984, Apple Computer[^Apple] changed the world.  The popular Macintosh
-device ushered in the widespread use of a high-resolution graphical user
-interface (GUI) that could be conveniently controlled by a pointing device (the
-mouse).  The user could, even without any knowledge of how to write a computer
-program, easily learn to do useful work on a Macintosh.  Although easy use was
-possible with earlier devices, the Macintosh was the first mass-market
-computing device that did not even ship with a computer language (though one
-could purchase additional software to enable the writing of programs).
+In 1984, Apple Computer[^Apple] changed the world.  The Macintosh device
+ushered in the widespread adoption of the graphical user interface (GUI)
+conveniently controlled by a pointing device (the mouse).  Even without any
+knowledge of how to write a computer program, the user could do useful work on
+a Macintosh.  Although easy use was possible with earlier devices, the
+Macintosh was the first mass-market computing device that did not even ship
+with a programming language (though programming tools were available
+separately).
 
 [^Apple]: In 2007, the company changed its name from "Apple Computer" to
 "Apple".
 
-By the early 1990s, basic knowledge of how to use a computer became common.
-Today, each of the desktop workstation, the point-of-sale terminal, the tablet,
-the cell phone, and even the occasional wrist watch is a device with more
-computing power than the most advanced, room-sized computers of the 1960s.  The
-computer is now an indispensable part of daily life because it can be
-simultaneously small, powerful in computation, efficient in use of energy,
-inexpensive, rugged, and easy to use.
+Basic knowledge of how to use a computer became common.  Today, each of the
+desktop workstation, the point-of-sale terminal, the tablet, the cell phone,
+and even the occasional wrist watch is a device with more computing power than
+the most advanced, room-sized computers of the 1960s.  The computer is now an
+indispensable part of daily life because it can be simultaneously small,
+computationally powerful, energy-efficient, inexpensive, rugged, and easy to
+use. Widespread reliance on computers implies a correspondongly widespread
+knowledge of their basic use.
 
-However, although the pervasiveness of computers suggests widespread knowledge
-of their basic use, knowledge of how to *program* a computer---that is,
-knowledge of *advanced* usage, which can redefine the operation of the
-computer---is not so widespread.  My use of "basic" and "advanced" here is not
-standard but serves to make clear the difference between
+However, knowledge of how to *program* a computer---that is, knowledge of
+*advanced* usage, which can redefine the operation of the computer---is not so
+widespread.  My use of "basic" and "advanced" here is not standard, but it
+serves to make clear the difference between
 
- - merely using software that already exists and
- - writing new software.
+ - merely *using* software that already exists and
+ - *writing* new software.
 
 ## Basic Usage of a Computer
 
-A computer is the heart of many an electronic device.  Let us define "device"
-in the present context as "a thing whose behavior is controlled by an internal
-computer".  While good design of a device's *sensory interface* is necessary
-for ease of use, good *software* running in the computer is also necessary.  In
-the heart of the device, the software controls the user's experience.
+A computer is the heart of many a device.  Let us define "device" in the
+present context as "a machine with behavior defined by internal *software* and
+with a *sensory interface* for interacting with a human user".  While good
+design of the interface is necessary for ease of use, good software is also
+necessary.  In the heart of the device, the software controls the user's
+experience.
 
 The sensory interface includes every
 
@@ -77,15 +78,15 @@ the new software is built is called the *target*.  When the target is a
 computer of a kind different from that of the host, the build is a *cross*
 build.
 
-By "advanced usage" I usually do not mean the writing of just any software.
-There is a sense in which writing a Javascript program, which runs only within
-the confines of a web browser, is an example of advanced usage.  However, the
-more advanced the usage, the deeper the control of the device by way of the
-program, the greater the degree to which the device's behavior might be
-altered.  So what I typically mean by "advanced usage" is the construction of a
-program that can write to every one of the device's sensory outputs, can read
-from every one of the device's sensory inputs, and can be stored in a permanent
-way in the device to modify its behavior.
+By "advanced usage" I do not mean the writing of just any software.  There is a
+sense in which writing a Javascript program, which runs only within the
+confines of a web browser, is an example of advanced usage.  However, the more
+advanced the usage, the deeper the control of the device by way of the program,
+the greater the degree to which the device's behavior might be altered.  So
+what I mean by "advanced usage" is the construction of a program that can write
+to every one of the device's sensory outputs, can read from every one of the
+device's sensory inputs, and can be stored in a permanent way in the device to
+modify its behavior.
 
 ## A Brief History of Computing
 
@@ -118,22 +119,23 @@ tube-based electronic computer constructed by a team led by Maurice Wilkes at
 the University of Cambridge in England.
 
 Beginning in 1957 with IBM's FORTRAN language[^FORTRAN], new software could be
-written as words in a *portable computer language*, usually just called a
-"computer language".  Each line of a computer program in FORTRAN was usually
+written as words in a *portable programming language*, usually called simply a
+"programming language".  Each line of a computer program in FORTRAN was usually
 typed on a mechanical keyboard that punched holes in a rigid card.  A special
-piece of software already installed in the computer was the *compiler*.  It
-translated the FORTRAN words into machine code so that the program could run.
-The advantage of a portable computer language is that even though each new
-device might have a different set of machine instructions and a different
+piece of software already installed in the computer was the *compiler*.  Just
+as the assembler translated assembly code into machine code, the compiler
+translated the FORTRAN code into machine code (or, as an intermediate step,
+into assembly code) so that the program could run directly on the computer as
+machine code.  The advantage of a programming language is that even though each
+new device might have a different set of machine instructions and a different
 assembly language, each new device could come with a FORTRAN compiler that
-understands the same, standard FORTRAN language.  So the same FORTRAN program
-could be fed into different devices.  Each device's compiler would convert the
-FORTRAN code into the appropriate machine-code version of the same program.  By
-the early 1960s, electronic-keyboard terminals began commonly to replace
+takes as input any code in the same, standard FORTRAN language.  So the same
+FORTRAN card stack could be fed into different devices.  Each device's compiler
+would convert the FORTRAN code into the machine code appropriate to the device.
+By the early 1960s, electronic-keyboard terminals began commonly to replace
 punched cards at the device's input interface. By the early 1970s, a terminal
-with keyboard and cathode-ray-tube video screen, rather than keyboard and
-paper, became common. Still, punched cards were commonly used for program input
-into the 1970s.
+with keyboard and video monitor, rather than keyboard and paper, became common.
+Still, punched cards were commonly used for program input into the 1970s.
 
 [^FORTRAN]: Each early version of the language was called "FORTRAN": FORTRAN
 (released in 1957), FORTRAN II (1958), FORTRAN IV (1962), FORTRAN 66 (1966),
@@ -150,24 +152,24 @@ Since the late 1970s, new software has almost always been written, even for a
 home device, with the assistance of existing software already running.
 Starting in 1977, with Apple Computer's introduction of the Apple II, Radio
 Shack's introduction of the TRS-80, and Commodore's introduction of the PET,
-software incorporated into the home computer enabled not only the easy writing
+the software delivered in the home computer not only enabled the easy writing
 of new software in a simple, high-level language like BASIC[^BASIC] but also
-the rapid growth of a population of users who could operate a computing device
-with only basic knowledge of how a computer operates.
+stimulated the rapid growth of a population of users who could operate a
+computing device with only basic knowledge of how a computer operates.
 
 [^BASIC]: Beginner's All-purpose Symbolic Instruction Code (BASIC) refers to
-any of several similar computer languages designed to be easy to use.
+any of several similar programming languages designed to be easy to use.
 
 By 1984, the consumer market was ready for Apple Computer's Macintosh.
-However, although the Macintosh was relatively easy to use in comparison with
-earlier devices, it was also relatively difficult to program. A new Macintosh
-did not come with a programming language out of the box; also, the details of
-how the hardware and installed software function were kept secret from the
-user.  The Macintosh was just one example of a trend toward making the internal
-operation of a computer inscrutable and toward making the writing of new,
-useful programs for a device difficult or even impossible.
+Although the Macintosh was relatively easy to use in comparison with earlier
+devices, it was also relatively difficult to program. A new Macintosh did not
+come with a programming language out of the box; also, the details of how the
+hardware and installed software function were kept secret from the user.  The
+Macintosh was just one example of a trend toward making the internal operation
+of a computer inscrutable and toward making the writing of new, useful programs
+for a device difficult or even impossible for the user.
 
-In response to the trend toward making a person's advanced usage of a computer
+In response to the trend toward making the advanced usage of a computer
 difficult or impossible, Richard Stallman in 1985 founded the non-profit Free
 Software Foundation (FSF).  One of its purposes is to produce freely
 distributable software that enables writing software for any computer.  The
@@ -179,10 +181,12 @@ do provide a complete, free system for writing new software.
 [^GNU]: "GNU" is a recursive acronym that stands for "GNU's Not Unix". Despite
 its name, the GNU project aims to provide a complete Unix-like operating
 system. The Unix operating system was developed originally by AT&T in the early
-1970s. The C portable computer language was used to write most of Unix, and C
+1970s. The C programming language was used to write most of Unix, and C
 similarly forms the basis for GNU.  So one of the most important tools provided
 by GNU is the C compiler.
+
 [^FSF-core]: Such as the GNU Compiler Collection (GCC).
+
 [^other-free]: Such as the Linux kernel.
 
 In the early days of computing, every device allowed for advanced usage.  As
@@ -195,9 +199,9 @@ rapidly more common.  Since the early 1990s, when Microsoft introduced a
 popular, standard GUI (Microsoft Windows 3.1) for open-architecture personal
 computers, the typical computer user has had only basic knowledge of how to use
 a computer.  Out of the box, a device purchased today is already loaded with
-all of the software that the basic user needs, but advanced usage can be
-difficult or expensive.  The most convenient approach to enable advanced usage
-is often to install software from the FSF.
+all of the software that the basic user needs. Advanced usage can be difficult,
+expensive, or even impossible for some devices.  The most convenient approach
+to enable advanced usage is often to install software from the FSF.
 
 ## The Content of the Present Book
 
@@ -209,13 +213,13 @@ FORTRAN).  A compiled language gives great control and speed while allowing a
 program to be portable from one device to the next.  I also introduce a
 scripting language, Ruby.  Like a compiled language, a scripting language
 allows the writing of portable programs but also allows a program to be written
-most quickly and concisely.  Although a scripted program is usually not in its
-execution speed so fast as a compiled program, the speed of execution is often
-fast enough.  Almost every programming project can be efficiently completed
-through the development of some combination of compiled and scripted code.  By
-referring only to free software (for example, the GNU C compiler and the Ruby
-interpreter), I make easy the reader's acquisition of the necessary tools.  The
-material here presented gives the reader the power to define a device's
+most quickly and concisely.  Although a scripted program does not run so fast
+as the corresponding compiled program, the speed of the script is often fast
+enough.  Almost every programming project can be efficiently completed through
+the development of some combination of compiled and scripted code.  By
+referring only to free software (for example, the GNU C compiler and the
+interpreter for Ruby scripts), I ease the reader's acquisition of the necessary
+tools.  The material herebelow gives the reader the power to define a device's
 behavior just as he pleases, within the constraints of the device's physical
 capability.
 
