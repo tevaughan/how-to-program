@@ -90,7 +90,7 @@ So advanced usage typically involves
  - writing software in some combination of the C programming language and a
    scripting language and,
 
- - by way of root or administrator privilege, to install the new software so
+ - by way of root or administrator privilege, installing the new software so
    that it runs with the appropriate level of privilege.
 
 ## A Brief History of Computing
