@@ -4,26 +4,28 @@
 
 # Introduction
 
-In 1984, Apple Computer[^Apple] changed the world.  The Macintosh device
-ushered in the widespread adoption of the graphical user interface (GUI)
+In 1984, Apple Computer[^Apple] changed the world.  Introduced in that year,
+the Macintosh was a computer that anybody could use.  It initiated the
+widespread adoption of the graphical user interface (GUI), which is
 conveniently controlled by a pointing device (the mouse).  Even without any
-knowledge of how to write a computer program, the user could do useful work on
-a Macintosh.  Although easy use was possible with earlier devices, the
+knowledge of how to write a computer program, one could effectively put the
+Macintosh to work.  Although easy use was possible with earlier devices, the
 Macintosh was the first mass-market computing device that did not even ship
-with a programming language (though programming tools were available
-separately).
+with programming tools[^Mac-tools].
 
 [^Apple]: In 2007, the company changed its name from "Apple Computer" to
 "Apple".
 
-Basic knowledge of how to use a computer became common.  Today, each of the
-desktop workstation, the point-of-sale terminal, the tablet, the cell phone,
-and even the occasional wrist watch is a device with more computing power than
-the most advanced, room-sized computers of the 1960s.  The computer is now an
-indispensable part of daily life because it can be simultaneously small,
-computationally powerful, energy-efficient, inexpensive, rugged, and easy to
-use. Widespread reliance on computers implies a correspondongly widespread
-knowledge of their basic use.
+[^Mac-tools]: Programming tools were sold separately.
+
+Within ten years, basic knowledge of how to use a computer became common.
+Today, each of the desktop workstation, the point-of-sale terminal, the tablet,
+the cell phone, and even the occasional wrist watch is a device with more
+computing power than the most advanced, room-sized computers of the 1960s.  The
+computer is now an indispensable part of daily life because it can be
+simultaneously small, computationally powerful, energy-efficient, inexpensive,
+rugged, and easy to use. Widespread reliance on computers implies a
+correspondongly widespread knowledge of their basic use.
 
 However, knowledge of how to *program* a computer---that is, knowledge of
 *advanced* usage, which can redefine the operation of the computer---is not so
@@ -83,9 +85,9 @@ browser, is arguably an example of advanced usage.  However, the more advanced
 the usage, the deeper the control of the device by way of the program, the
 greater the degree to which the device's behavior might be altered.  In its
 fullest sense, "advanced usage" refers to the construction of a program that
-can write to every one of the device's sensory outputs, can read from every one
-of the device's sensory inputs, and can be installed permanently in the device.
-So advanced usage typically involves
+can write to the device's every sensory output, read from the device's every
+sensory input, and be installed permanently in the device.  So advanced usage
+typically involves
 
  - writing software in some combination of the C programming language and a
    scripting language and,
@@ -108,8 +110,8 @@ of software.  New software was crafted, for example,
    into a card reader.
 
 Each of the switch set, the tape reader, and the card reader is an input
-interface.  The input process loaded the numbers of a program's *machine code*,
-which governs the computer's behavior.
+interface.  Each corresponding input process would load the numbers of a
+program's *machine code*, which governs the computer's behavior.
 
 Beginning in 1949, with the EDSAC device[^EDSAC], a special piece of software
 called an "assembler" could be installed.  An assembler allows a program to be
@@ -127,8 +129,9 @@ to run on the new computer, the same program would have to be re-written by
 hand in the new assembly language.
 
 [^EDSAC]: The Electronic Delay Storage Automatic Calculator (EDSAC) was a
-tube-based electronic computer constructed by a team led by Maurice Wilkes at
-the University of Cambridge in England.
+tube-based electronic computer constructed at the University of Cambridge in
+England.  The phrase "electronic delay" refers to mercury delay lines, which
+were used for dynamic memory.
 
 Beginning in 1957 with IBM's FORTRAN language[^FORTRAN], new software could be
 written as words in a *portable programming language*, usually called simply a
