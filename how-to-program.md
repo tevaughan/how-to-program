@@ -5,13 +5,14 @@
 # Introduction
 
 In 1984, Apple Computer[^Apple] changed the world.  Introduced in that year,
-the Macintosh was a computer that anybody could use.  It initiated the
-widespread adoption of the graphical user interface (GUI), which is
-conveniently controlled by a pointing device (the mouse).  Even without any
-knowledge of how to write a computer program, one could effectively put the
-Macintosh to work.  Although easy use was possible with earlier devices, the
-Macintosh was the first mass-market computing device that did not even ship
-with programming tools[^Mac-tools].
+the Macintosh was a computer that anybody could use.  Sales of the Macintosh
+began the widespread adoption of the graphical user interface (GUI), which is
+conveniently controlled by a pointing device (the mouse), as the standard
+interface for using a computer.  Even without any knowledge of how to write a
+computer program, one could effectively put the Macintosh to work.  Although
+easy use was possible with earlier devices, the Macintosh was the first
+mass-market computing device that did not even ship with programming
+tools[^Mac-tools].
 
 [^Apple]: In 2007, the company changed its name from "Apple Computer" to
 "Apple".
@@ -25,12 +26,11 @@ computing power than the most advanced, room-sized computers of the 1960s.  The
 computer is now an indispensable part of daily life because it can be
 simultaneously small, computationally powerful, energy-efficient, inexpensive,
 rugged, and easy to use. Widespread reliance on computers implies a
-correspondongly widespread knowledge of their basic use.
+correspondingly widespread knowledge of their basic use.
 
 However, knowledge of how to *program* a computer---that is, knowledge of
-*advanced* usage, which can redefine the operation of the computer---is not so
-widespread.  My use of "basic" and "advanced" here is not standard, but it
-serves to make clear the difference between
+*advanced* usage---is not so widespread.  My use of "basic" and "advanced" here
+is not standard, but it serves to make clear the difference between
 
  - merely *using* software that already exists and
  - *writing* new software.
@@ -40,9 +40,9 @@ serves to make clear the difference between
 A computer is the heart of many a device.  Let us define "device" in the
 present context as "a physical machine with both (a) behavior defined by
 internal *software* and (b) a *sensory interface* for interacting with a human
-user".  While good design of the interface is necessary for ease of use, good
-software is also necessary.  In the heart of the device, the software controls
-the user's experience.
+user".  Both good design of the interface and good software are necessary for
+ease of use.  In the heart of the device, the software controls the user's
+experience.
 
 The sensory interface includes every
 
@@ -53,25 +53,24 @@ Each input and output might itself be a separate physical device.  In any
 event, the computer, the inputs, and the outputs comprise a single, *logical*
 device.
 
-The software consists of the program or programs running in the computer.  The
-software defines the behavior of the device.  By experimenting with the sensory
-interface, the user can learn how the device behaves.  When the user has learnt
-how to profit from the device's behavior, the user has mastered *basic* usage
-of the device's computer.  Basic usage of a computer does not involve changing
-the behavioral rules that are built in to the computer in its existing
-software.
+The software consists of the program or programs running in the computer.  By
+experimenting with the sensory interface, the user can learn how the device
+behaves.  When the user has learnt how to profit from the device's behavior,
+the user has mastered *basic* usage of the device's computer.  Basic usage of a
+computer involves learning, but not changing, the behavioral rules that are
+built in to the software.
 
 ## Advanced Usage of a Computer
 
 If a device allow for *advanced* usage, though, then the user can modify in a
 deep way either the behavior of the device itself or the behavior of a
-different device.[^host-cross]  The advanced user writes new software.
-Advanced usage can be deep in that the degree to which a device's behavior can
-be changed is limited only by the device's physical construction, the user's
-speculative intellect, and the user's available time to work.  Advanced usage
-imposes certain requirements on the sensory interface and on the software
-already in the device.  Most importantly, a device that allows for advanced
-usage must provide an input interface for constructing a new computer program.
+different device.[^host-cross]  The advanced user writes new software.  The
+degree to which a device's behavior can be changed is limited only by the
+device's physical construction, the user's speculative intellect, and the
+user's available time to work.  Advanced usage imposes certain requirements on
+the sensory interface and on the software already in the device.  Most
+importantly, a device that allows for advanced usage must provide an input
+interface for constructing a new computer program.
 
 [^host-cross]: In the advanced usage of a device, the user writes new software,
 which is deployed either on the same device or on a different device.  The
@@ -82,18 +81,18 @@ build.
 
 Writing a Javascript program, which runs only within the confines of a web
 browser, is arguably an example of advanced usage.  However, the more advanced
-the usage, the deeper the control of the device by way of the program, the
-greater the degree to which the device's behavior might be altered.  In its
-fullest sense, "advanced usage" refers to the construction of a program that
-can write to the device's every sensory output, read from the device's every
-sensory input, and be installed permanently in the device.  So advanced usage
-typically involves
+the usage, the greater the degree to which the device's behavior might be
+altered.  In its fullest sense, "advanced usage" in my terminology refers to
+the construction of a program that can write to the device's every sensory
+output, read from the device's every sensory input, and be installed
+permanently in the device.  Advanced usage these days typically involves
 
  - writing software in some combination of the C programming language and a
    scripting language and,
 
  - by way of root or administrator privilege, installing the new software so
-   that it runs with the appropriate level of privilege.
+   that it runs with the appropriate level of permission to access the sensory
+   interface.
 
 ## A Brief History of Computing
 
@@ -122,11 +121,11 @@ assembler program was manually installed by setting switches to configure ROM.
 Then any other program could be written by punching holes, corresponding to
 assembly instructions, into a paper tape.  A program was represented on a
 length of tape that was fed into a tape reader.  EDSAC's assembler translated
-the program on the tape into machine code, and then the new program could be
-run.  A problem with any approach like this is that, usually, each new kind of
-computer has a new and different assembly language.  So, in order for a program
-to run on the new computer, the same program would have to be re-written by
-hand in the new assembly language.
+the program on the tape into machine code stored in dynamic memory, and then
+the new program could be run.  A problem with any approach like this is that,
+usually, each new kind of computer has a new assembly language.  So, in order
+for a program to run on the new computer, the same program must be re-written
+by hand in the new assembly language.
 
 [^EDSAC]: The Electronic Delay Storage Automatic Calculator (EDSAC) was a
 tube-based electronic computer constructed at the University of Cambridge in
@@ -135,23 +134,23 @@ were used for dynamic memory.
 
 Beginning in 1957 with IBM's FORTRAN language[^FORTRAN], new software could be
 written as words in a *portable programming language*, usually called simply a
-"programming language".  Each line of a computer program in FORTRAN was usually
-typed on a mechanical keyboard that punched holes in a rigid card.  A special
-piece of software already installed in the computer was the *compiler*.  Just
-as the assembler translated assembly code into machine code, the compiler
-translated the FORTRAN code into machine code (or, as an intermediate step,
-into assembly code) so that the program could run directly on the computer as
-machine code.  The advantage of a programming language is that even though each
-new device might have a different set of machine instructions and a different
-assembly language, each new device could come with a compiler that takes as
-input any program code written in the programming language accepted by the
-compiler.  So the same FORTRAN card stack could be fed into different devices.
-Each device's compiler would convert the FORTRAN code into the machine code
-appropriate to the device.  By the early 1960s, electronic-keyboard terminals
-began commonly to replace punched cards at the device's input interface. By the
-early 1970s, a terminal with keyboard and video monitor, rather than keyboard
-and paper, became common.  Still, punched cards were commonly used for program
-input into the 1970s.
+"programming language".  In the 1950s and 1960s, each line of a computer
+program in FORTRAN was usually typed on a mechanical keyboard that punched
+holes in a rigid card.  A special piece of software already installed in the
+computer was the *compiler*.  Just as the assembler translated assembly code
+into machine code, the compiler translated the FORTRAN code into machine code
+(or, as an intermediate step, into assembly code) so that the program could run
+directly on the computer as machine code.  The advantage of a programming
+language is portability: Even though a new device might have a new set of
+machine instructions and a new assembly language, the device could still be
+delivered with a compiler that takes as input any program code written in the
+same, old programming language.  So the same FORTRAN card stack could be fed
+into different devices.  Each device's compiler would convert the FORTRAN code
+into the machine code appropriate to the device.  By the early 1960s,
+electronic-keyboard terminals began to replace punched cards at the device's
+input interface. By the early 1970s, a terminal with keyboard and video
+monitor, rather than keyboard and paper, became common.  Still, punched cards
+were used for program input into the 1970s.
 
 [^FORTRAN]: Each early version of the language was called "FORTRAN": FORTRAN
 (released in 1957), FORTRAN II (1958), FORTRAN IV (1962), FORTRAN 66 (1966),
