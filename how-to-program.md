@@ -32,8 +32,8 @@ However, knowledge of how to *program* a computer---that is, knowledge of
 *advanced* usage---is not so widespread.  My use of "basic" and "advanced" here
 is not standard, but it serves to make clear the difference between
 
- - merely *using* software that already exists and
- - *writing* new software.
+ - what is basic, the usage of a computer without changing its behavior and
+ - what is advanced, the usage of a computer in order to change its behavior.
 
 ## Basic Usage of a Computer
 
