@@ -3,7 +3,7 @@ hello : hello.o
 	ld -s -o $@ $<
 
 hello.o : hello.S
-	as -g -o $@ $<
+	as -o $@ $<
 
 .PHONY : clean
 
